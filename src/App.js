@@ -22,7 +22,7 @@ class App extends Component {
             <a href="/demos">Demos</a>
           </li>
         </ul>
-        <h1 className="App-title">Welcome to my world.</h1>
+        <h1 className="App-title">Welcome to my little world.</h1>
       </div>
     );
   }
