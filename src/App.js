@@ -16,10 +16,10 @@ class App extends Component {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="/stuff">Stuff</a>
+            <a href="/card">Card</a>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <a href="/demos">Demos</a>
           </li>
         </ul>
         <h1 className="App-title">Welcome to my world.</h1>

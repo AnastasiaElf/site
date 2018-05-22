@@ -11,6 +11,7 @@
 	background-color: #333333;
 	height: 80px;
 	padding: 10px;
+	margin: 0;
 	color: #EEEEEE;
 	grid-area: header;
 	display: flex;
@@ -26,20 +27,15 @@
 	font-size: large;
 }
 
-@keyframes App-logo-spin{
-	from{
-		transform: rotate(0deg);
-	}
-	to{
-		transform: rotate(360deg);
-	}
-}
-
 ul.App-header li{
 	display: inline;
 	list-style-type: none;
 	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
+
 ul.App-header li a{
 	color: #EEEEEE;
 	font-weight: bold;
@@ -47,6 +43,7 @@ ul.App-header li a{
 	padding: 20px;
 	display: inline-block;
 }
+
 ul.App-header li a.logo_home{
 	padding: 0;
 }
