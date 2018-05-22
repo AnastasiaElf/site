@@ -6,9 +6,22 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
+        <ul className="App-header">
+          <li>
+            <a href="/" className="logo_home">
+              <img src={logo} className="App-logo" alt="logo" />
+            </a>
+          </li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/stuff">Stuff</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
+        </ul>
         <h1 className="App-title">Welcome to my world.</h1>
       </div>
     );

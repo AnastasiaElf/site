@@ -34,3 +34,19 @@
 		transform: rotate(360deg);
 	}
 }
+
+ul.App-header li{
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+}
+ul.App-header li a{
+	color: #EEEEEE;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 20px;
+	display: inline-block;
+}
+ul.App-header li a.logo_home{
+	padding: 0;
+}
