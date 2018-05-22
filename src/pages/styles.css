@@ -34,3 +34,53 @@
 	align-items: center;
 	justify-content: center;
 }
+.about_cards{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.about_card{
+	background: #EEEEEE;
+	margin: 3px;
+	padding: 10px;
+	height: 300px;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.me_image{
+	height: 100%;
+	margin: 3px;
+}
+
+.contacts_card{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 3px;
+}
+
+.contact{
+	background: #EEEEEE;
+	color: #333333;
+	padding: 10px;
+	height: 50px;
+	width: 60%;
+	margin: 3px;
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.image_contact{
+	margin: 3px;
+	height: 20px;
+}
