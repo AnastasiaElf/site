@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import logo from "./images/elf.png";
 import { Route, NavLink, HashRouter } from "react-router-dom";
-import Home from "./component/home";
-import About from "./component/about";
-import Contact from "./component/contact";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Button from "./component/button/button";
 import "./App.css";
 
 class App extends Component {
@@ -38,6 +39,7 @@ class App extends Component {
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
           </div>
+          {/* <Button name="button" /> */}
         </div>
       </HashRouter>
     );
