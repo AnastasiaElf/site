@@ -1,11 +1,15 @@
-.listing_cards{
+.home-title {
+	text-align: center;
+}
+
+.listing-cards {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-.card{
+.home-card {
 	background: #EEEEEE;
 	margin: 3px;
 	padding: 10px;
@@ -17,12 +21,12 @@
 	flex-direction: row;
 }
 
-.image{
+.card-image {
 	height: 100%;
 	margin: 3px;
 }
 
-.text{
+.card-text {
 	width: 100%;
 	height: 100%;
 	margin: 3px;
@@ -33,15 +37,16 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
-.about_cards{
+.about-cards {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
 
-.about_card{
+.about-card {
 	background: #EEEEEE;
 	margin: 3px;
 	padding: 10px;
@@ -53,12 +58,12 @@
 	flex-direction: row;
 }
 
-.me_image{
+.me-image {
 	height: 100%;
 	margin: 3px;
 }
 
-.contacts_card{
+.contacts-card {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -66,7 +71,7 @@
 	margin: 3px;
 }
 
-.contact{
+.contact {
 	background: #EEEEEE;
 	color: #333333;
 	padding: 10px;
@@ -78,9 +83,21 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
+	cursor: default;
 }
 
-.image_contact{
-	margin: 3px;
+.contact a {
+	text-decoration: none;
+	color: #333333;
+}
+
+.contact a:hover {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+}
+
+.image-contact {
+	margin: 0px 6px 6px 0px;
 	height: 20px;
 }
